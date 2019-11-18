@@ -1,5 +1,7 @@
 package soft.Assign;
 
+import java.util.List;
+
 public class Student {
 private String name;
 private int age;
@@ -7,7 +9,7 @@ private String DOB;
 private int id;
 private String username;
 private String courses;
-private String modules;
+private List<Module> modules;
 public String getName() {
 	return name;
 }
@@ -44,10 +46,10 @@ public String getCourses() {
 public void setCourses(String courses) {
 	this.courses = courses;
 }
-public String getModules() {
+public List<Module> getModules() {
 	return modules;
 }
-public void setModules(String modules) {
+public void setModules(List<Module> modules) {
 	this.modules = modules;
 }
 

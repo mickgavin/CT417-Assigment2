@@ -6,7 +6,8 @@ import org.joda.time.DateTime;
 
 public class Course {
 	private String courseName;
-	private List<String>students;
+	private List<Student>students;
+	private List<Module>module;
 	private DateTime start;
 	private DateTime end;
 	public String getCourseName() {
@@ -15,12 +16,7 @@ public class Course {
 	public void setCourseName(String courseName) {
 		this.courseName = courseName;
 	}
-	public List<String> getStudents() {
-		return students;
-	}
-	public void setStudents(List<String> students) {
-		this.students = students;
-	}
+	
 	public DateTime getStart() {
 		return start;
 	}
@@ -32,6 +28,18 @@ public class Course {
 	}
 	public void setEnd(DateTime end) {
 		this.end = end;
+	}
+	public List<Student> getStudents() {
+		return students;
+	}
+	public void setStudents(List<Student> students) {
+		this.students = students;
+	}
+	public List<Module> getModule() {
+		return module;
+	}
+	public void setModule(List<Module> module) {
+		this.module = module;
 	}
 	
 	
