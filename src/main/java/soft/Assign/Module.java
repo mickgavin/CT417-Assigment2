@@ -6,6 +6,13 @@ public class Module {
 private String moduleName;
 private List<Student>students;
 private List<Course>courses;
+
+public Module(String moduleName, List<Student> students, List<Course> courses) {
+	super();
+	this.moduleName = moduleName;
+	this.students = students;
+	this.courses = courses;
+}
 public String getModuleName() {
 	return moduleName;
 }

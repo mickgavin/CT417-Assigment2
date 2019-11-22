@@ -10,6 +10,17 @@ private int id;
 private String username;
 private String courses;
 private List<Module> modules;
+
+public Student(String name, int age, String dOB, int id, String username, String courses, List<Module> modules) {
+	super();
+	this.name = name;
+	this.age = age;
+	DOB = dOB;
+	this.id = id;
+	this.username = username;
+	this.courses = courses;
+	this.modules = modules;
+}
 public String getName() {
 	return name;
 }
