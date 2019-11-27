@@ -25,7 +25,7 @@ public class AppTest
 	public void moduleNameTest() {
 		Module module = new Module(null, null, null);
 		module.setModuleName("programming");
-		String test = "proramming";
+		String test = "programming";
 		assertEquals(module.getModuleName(),test);
 		
 		
